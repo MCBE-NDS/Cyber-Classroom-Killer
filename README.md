@@ -37,7 +37,7 @@ void searchAndOpen(const std::string& folderPath, const std::string& fileName, i
 }
 ```
 Find the location of the blocked file,and display the search progress.  
-Assumes around 1 million files on C: .  
+Assumes around 1 million files on C: ,Find 1000 files per unit.  
 
 ```cpp
 void opent() {
@@ -52,3 +52,4 @@ void opent() {
 	}
 }
 ```
+Find the exe file named Teacher located at C:,if not found, output ' no files found! '.
